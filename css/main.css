@@ -1,0 +1,158 @@
+
+/*broadcast mini screen*/
+@media only screen and (max-width: 412px) {
+	/*.direction{
+	direction: rtl;
+	}*/
+/*properties of title div*/
+	.title {
+		width: 100%;
+		text-align: center;
+	}
+/*properties of logo div*/
+	.logo {
+		width: 100%;
+	}
+/*properties of logo Image*/
+	.imgLogo {
+		max-width: 60px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+        width: 50%;
+	}
+/*properties of main image*/
+	.img {
+		width: 100%;
+		height:auto;
+		overflow: hidden;
+		border-radius:10px;
+	}
+/*properties of footer image*/
+	.responsive {
+	    width: 100%;
+	    height: auto;
+		overflow: hidden;
+		border-radius:10px;
+	}
+
+/* End properties of mini screen*/
+}
+
+/*broadcast LARGE screen*/
+@media only screen and (min-width: 413px ) {
+/*properties of body genrale*/
+	body{
+		padding: 0% 10%;
+ 		background: #333333 no-repeat fixed center; 
+	}
+/*properties of title div*/
+	.title {
+		width: 70%;
+		height: 120px;
+		float: right;
+		color:#ffffff;
+		text-shadow:2px 3px 4px black;
+	}
+/*properties of logo div*/
+	.logo {
+		width: 30%;
+		height: 120px;
+		float: left;
+	}
+/*properties of heading elmente of header*/
+	.right {
+		text-align: right;
+	}
+/*properties of header Height*/
+	.headerHeight {
+		height: 150px;
+	}
+/*properties of logo Image*/
+	.imgLogo {
+		max-width: 120px;
+		height: auto;
+        -webkit-transform: scaleX(-1);
+    	transform: scaleX(-1);
+	}
+/*properties of main image*/
+	.img {
+		width: 100%;
+		height:auto;
+		overflow: hidden;
+		border-radius:10px;
+	}
+/*properties of footer image*/
+	.responsive {
+	    max-width: 100%;
+	    height: auto;
+		overflow: hidden;
+		border-radius:10px;
+		padding-left: 5%;
+	}
+/*properties of section*/
+	.transbox {
+		background-color: #e9ebee;
+		border-radius:10px;
+	}
+/*properties of image footer*/
+	.continar {
+		display: flex;
+	}
+/*properties of columes of footer div*/
+	.percent {
+		max-width: 	33.333%;
+		overflow: hidden;
+	}
+
+/*End Properties of Large screen */
+}
+						/*I think that true position 
+						coze that out area site @media screen and 
+						I need apply that attributes at all screen 
+						Thank you for advice and your suggestion */
+/*properties of heading*/
+.Capitalization {
+	text-transform:uppercase;
+}
+/*properties of heading*/
+.first_letter_C {
+	text-transform:capitalize;
+}
+/*properties of heading in section classe transbox */
+.transbox h2 {
+	margin-left: 1%;
+}
+/*properties of paragraphe in section classe transbox */
+.transbox p {
+	text-align: center;
+	padding: 0% 2%;
+	overflow: hidden;
+	text-overflow:ellipsis; 
+}
+/*properties of footer*/
+footer {
+	background-color: #aca8a7;
+	border-radius:10px;
+	padding: 0 45%;
+	margin-top: 5px;
+}
+/*properties of social media linkes in footer*/
+footer a {
+	display: inline;
+}
+/*properties of Facebook*/
+.fa-facebook-square {
+	font-size:24px;
+	color:#4267b2;
+}
+/*properties of linkedin*/
+.fa-linkedin {
+	font-size:24px; 
+	color:#0077b5;
+}
+/*properties of jsfiddle*/
+.fa-jsfiddle {
+	font-size:24px; 
+	color:#0077b5;
+}
