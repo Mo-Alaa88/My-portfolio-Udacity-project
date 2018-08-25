@@ -80,7 +80,7 @@
 		width: 100%;
 		height:auto;
 		overflow: hidden;
-		border-radius:10px;
+		border-radius:2px;
 	}
 /*properties of footer image*/
 	.responsive {
@@ -100,7 +100,7 @@
 		display: flex;
 	}
 /*properties of columes of footer div*/
-	.percent {
+	.customization {
 		max-width: 	33.333%;
 		overflow: hidden;
 	}
