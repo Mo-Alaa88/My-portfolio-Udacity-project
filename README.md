@@ -11,9 +11,7 @@ and you can edit the attributes by open main.css with any editor.
 transform: scaleX(-1);`
 * Viewport meta tag is included in HTML. ` <meta name=”viewport” `
 * All content is responsive and displays on all display sizes. This includes:
-1-  Desktop
-2-  Mobile: Google Nexus 5
-3-  Tablet: Apple iPad
+` Desktop & Mobile: Google Nexus 5 & Tablet: Apple iPad`
 
 
 **Good luck**
